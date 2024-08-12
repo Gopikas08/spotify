@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web player: Music for everyone</title>
+    <link rel="icon" type="png/image" href="./images/favicon32.b64ecc03.png">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+</head>
+<body  style="background-color: #000000; margin: 0;">
+    <div style="display: flex;">
+        <div class="row">
+            <div class="col-3">
+                <div class="sidebar">
+                    <div class="sidebar-nav">
+                       
+                            <div class="logo">
+                                <a href="index.html"><img  class="logo"src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-logo-horizontal-white-20.png" alt=""></a>
+                            </div>
+                               
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <i class="fa-solid fa-house fa-lg" style="color: #ffffff;"></i>
+                                <span>Home</span>
+                            </a>
+                            </li>
+                            <li class="srch">
+                                <a href="">
+                                    <i class="fa-solid fa-magnifying-glass fa-lg" style="color: #ffffff;"></i>
+                                <span>Search</span>
+                            </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-options">
+                        <div class="activity">
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <i class="fa-solid fa-book fa-lg" style="color: #ffffff;"></i>
+                                    <span>Your Library</span>
+                                    </a>
+                                    <i  style="margin-left: 152px; color: #d3d3d3;  font-size: 17px; font-weight: 100; border-radius: 100px; cursor: pointer;"
+                                    class="fa-solid fa-plus fa-lg" style="color: #f2f2f2;"></i>
+                                </li>
+                            </ul>
+                            <div class="sidebar-scroll">
+                                <div class="inside-box">
+                                    <p class="main">Create your first playlist</p>
+                                    <p class="sub">It's easy we'll help you</p>
+                                    <button><b>Create playlist</b></button>
+                                </div>
+                                <div class="inside-box-2">
+                                    <p class="main">Lets's find some podcasts to follow</p>
+                                    <p class="sub">we'll keep  you updated on new episodes</p>
+                                    <button><b>Browse podcast</b></button>
+           
+                                </div>
+                            </div>
+                        </div>
+                        <div class="privacy">
+                            <ul style="margin-top: 43px; margin-left: -8px;">
+                                <li>Legal</li>
+                                <li style="margin-left: 18px;">Safety&PrivacyCenter</li>
+                                <li style="margin-left: 18px;">Privacy Policy</li>
+                            </ul>
+                            <ul style=" margin-left: -8px; margin-top: -4px;">
+                                <li>Cookies</li>
+                                <li style="margin-left: 18px;">AboutAds</li>
+                                <li style="margin-left: 18px;">Accessibility</li>
+                            </ul>
+                            <ul style=" margin-left: -8px;  margin-top: -4px;">
+                                <li>Cookies</li>
+                            </ul>
+           
+                        </div>
+                        <div class="eng-btn">
+                            <button><i class="fa-solid fa-globe" style="color: #ffffff;"></i></i>
+                            English</button>
+                        </div>
+                               
+                    </div>
+                </div>
+       
+            </div>
+            <div class="col-9">
+                 <!-- main section -->
+        <div class="main-section">
+            <div class="login">
+                <div class="back">
+                    <button>
+                        <i class="fa-solid fa-angle-left"></i>
+                    </button>
+                    <button>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </button>    
+                </div>
+                <div class="login-btn">
+                    <button class="btn-1">Sign up</button>
+                <div class="btn-2">
+                    <button>Log in</button>
+                </div>
+                </div>
+            </div>
+            <!-- playlist -->
+            <div class="playlist">
+                <div class="popular-artist">
+                    <div class="show">
+                        <a href=""><h2>Popular artists</h2></a>
+                        <a class="a-1"  href=""><p>Show all</p></a>
+   
+                    </div>
+                   
+                    <div class="cards">
+                        <button class="items">
+                            <img src="https://th-i.thgim.com/public/incoming/nb8ejk/article67122584.ece/alternates/FREE_1200/IMG_08mpPradeep.jpeg_5_1_N9A84EBT.jpg" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4>pradeep kumar </h4>
+                            <p>Artist</p>
+                        </button>
+   
+   
+                        <button class="items">
+                            <img src="https://npg.news/h-upload/2024/08/02/1237740-arijit-singh.webp" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4>arjit singh</h4>
+                            <p>Artist</p>
+                        </button>
+   
+   
+                        <button class="items">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROrCj-tIOm-ZeElYA8z-PNol_YszpRmk4INw&s" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4>A.R.Rahman</h4>
+                            <p>Artist  </p>
+                        </button>
+   
+   
+                        <button class="items">
+                            <img src="https://yt3.googleusercontent.com/Mx_2Fyky4YlyF3VWMkyrgTHadTvbd4w8NyXSQU9AMwq76ak4NlPUVZcs7yiyk40NIq29FdIlFw=s900-c-k-c0x00ffffff-no-rj" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4>Sachin-Jiagr</h4>
+                            <p>Artist  </p>
+                        </button>
+   
+   
+                        <button class="items">
+                            <img src="https://pbs.twimg.com/profile_images/1772264577041846272/IVDOoTn6_400x400.jpg" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4>Anirudh Ravichander</h4>
+                            <p>Artist  </p>
+                        </button>
+   
+   
+                        <button class="items">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT4r8cYyYIV58Aw2SX4TDb6agyIKY2SZo7ww&s" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4>Vishal Mishra</h4>
+                            <p>Artist  </p>
+                        </button>
+   
+   
+                    </div>
+                </div>
+   
+   
+   
+   
+                <div class="popular-albums">
+                    <div class="show">
+                        <a href=""><h2>Popular albums</h2></a>
+                        <a class="a-1"  href=""><p>Show all</p></a>
+   
+                    </div>
+                   
+                    <div style="margin-left: 8px;" class="cards">
+                        <button class="items">
+                            <img class="song-img"   src="https://m.media-amazon.com/images/M/MV5BNmI0MTliMTAtMmJhNC00NTJmLTllMzQtMDI3NzA1ODMyZWI1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4>Dil Bechara </h4>
+                            <p>A R Rahman</p>
+                        </button>
+   
+   
+                        <button class="items">
+                            <img  class="song-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBWBkSp_sr7biYmH88xdbXzza3Y-_-yPMvhw&s" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4>Aashiqui 2 </h4>
+                            <p>Mithoon,Ankit Tiwari,<br><p style="margin-top: 35px;">Jeet Gannguli</p>
+                        </button>
+   
+   
+                        <button class="items">
+                            <img   class="song-img" src="https://m.media-amazon.com/images/M/MV5BZTNiZGFiNWMtMjQ0MS00OWVhLWFkMTktM2UyOTFmNWE3NzgwXkEyXkFqcGdeQXVyMjkxNzQ1NDI@._V1_.jpg" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4>Mayaanadhi</h4>
+                            <p>Rex Vijayan</p>
+                        </button>
+   
+   
+                        <button class="items">
+                            <img  class="song-img" src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/ae-dil-hai-mushkil-et00032168-30-08-2016-10-50-16.jpg" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4>Ae Dil Hai Mushkil</h4>
+                            <p><br>Pritam<p style="margin-top: 35px;"></p>
+                        </button>
+   
+   
+                        <button class="items">
+                            <img  class="song-img" src="https://upload.wikimedia.org/wikipedia/en/d/d5/Harry_Styles_-_Harry%27s_House.png" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4>Harry's House</h4>
+                            <p>Harry Styles</p>
+                        </button>
+   
+   
+                        <button class="items">
+                            <img  class="song-img" src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/ghilli-et00000976-1713338431.jpg" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4>Gilli</h4>
+                            <p>KK,Udit Narayan</p>
+                        </button>
+   
+   
+                    </div>
+                </div>
+   
+   
+   
+   
+                <div class="popular-albums">
+                    <div class="show">
+                        <a href=""><h2>Popular radio</h2></a>
+                        <a class="a-1"  href=""><p>Show all</p></a>
+   
+                    </div>
+                   
+                    <div style="margin-left: 8px;" class="cards">
+                        <button class="items">
+                            <img class="song-img"   src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/2FKWNmZWDBZR4dE5KX4plR/de" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4>Diljit Dosanjh Radio </h4>
+                            <p>With Karan Aujla,<br><p style="margin-top: 35px;">Pritham,KKand more</p>
+                        </button>
+   
+   
+                        <button class="items">
+                            <img  class="song-img" src="    https://seeded-session-images.scdn.co/v2/img/540/r/artist/2FKWNmZWDBZR4dE5KX4plR/en-GB" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4>A.R.Rahman Radio </h4>
+                            <p>With Shankar <br><p style="margin-top: 35px;">Mahadevan,Anirudh...</p>
+                        </button>
+   
+   
+                        <button class="items">
+                            <img   class="song-img" src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/1plObTufEAfeL1hk8Qz24v/en" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4>Sanjith Hegde Radio</h4>
+                            <p>With Vasuki Vaibhav<p style="margin-top: 35px;">Ranjith Bawa,Amrinde...</p>
+                        </button>
+   
+   
+                        <button class="items">
+                            <img  class="song-img" src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/70B80Lwx2sxti0M1Ng9e8K/en-GB" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4>Udit Narayan Radio</h4>
+                            <p>With Kumar Sanu,Alka<br><p style="margin-top: 35px;">Yagnik,Anuradha...</p>
+                        </button>
+   
+   
+                        <button class="items">
+                            <img  class="song-img" src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/5r3wPya2PpeTTsXsGhQU8O/en-GB" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4>Subh Radio</h4>
+                            <p>With AP Dhillon,<p style="margin-top: 35px;">Gurinder Gill,Tegi...</p>
+                        </button>
+   
+   
+                        <button class="items">
+                            <img  class="song-img" src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/4fEkbug6kZzzJ8eYX6Kbbp/en-GB" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4>KK Radio</h4>
+                            <p>With Mohit Chauhan,<p style="margin-top: 35px;">Ankit Tiwari,Javed ali...</p>
+                        </button>
+   
+   
+                    </div>
+                </div>
+   
+   
+   
+   
+                <div class="popular-albums">
+                    <div class="show">
+                        <a href=""><h2>Featured Charts</h2></a>
+   
+                    </div>
+                   
+                    <div style="margin-left: 8px;" class="cards">
+                        <button class="items">
+                            <img class="song-img"   src=" https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4>Top Songs-Global</h4>
+                            <p>Your weekly update of<p style="margin-top: 35px;">the most played track...</p>
+                        </button>
+   
+   
+                        <button class="items">
+                            <img  class="song-img" src=" https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_us_default.jpg " alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4>Top Songs-USA</h4>
+                            <p>Your weekly update of<p style="margin-top: 35px;">the most played track...</p>
+                        </button>
+   
+   
+                        <button class="items">
+                            <img   class="song-img" src=" https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4>Top 50-Global</h4>
+                            <p>Your daily update of<p style="margin-top: 35px;">the most played tracks...</p>
+                        </button>
+   
+   
+                        <button class="items">
+                            <img  class="song-img" src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_us_default.jpg" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4>Top 50-USA</h4>
+                            <p>Your daily update of<p style="margin-top: 35px;">the most played tracks...</p>
+                        </button>
+   
+   
+                        <button class="items">
+                            <img  class="song-img" src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_global_default.jpg " alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4>Viral 50-Global</h4>
+                            <p>Your daily update of<p style="margin-top: 35px;">the most viral tracks...</p>
+                        </button>
+   
+   
+                        <button class="items">
+                            <img  class="song-img" src="  https://charts-images.scdn.co/assets/locale_en/viral/daily/region_us_default.jpg" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4>Viral 50-USA</h4>
+                            <p>Your daily update of<p style="margin-top: 35px;">the most viral tracks...</p>
+                           
+                        </button>
+
+
+   
+   
+                    </div>
+                </div>
+   
+   
+   
+   
+                <div class="popular-albums">
+                    <div class="show">
+                        <a href=""><h2>Shower Mix</h2></a>
+                        <a class="a-1"  href=""><p style="margin-left: 80px;">Show all</p></a>
+   
+                    </div>
+                   
+                    <div style="margin-left: 8px;" class="cards">
+                        <button class="items">
+                            <img class="song-img"   src=" https://c.saavncdn.com/606/Aalas-Ka-Pedh-Hindi-2015-500x500.jpg" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4>Cgoo Lo</h4>
+                            <p>The Local Train</p>
+                        </button>
+   
+   
+                        <button class="items">
+                            <img  class="song-img" src="https://a10.gaanacdn.com/gn_img/albums/YoEWlabzXB/oEWlPQyzWz/size_m.jpg " alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4>Rangi Saari</h4>
+                            <p>Kavitha Seth</p>
+                        </button>
+   
+   
+                        <button class="items">
+                            <img   class="song-img" src="https://images.genius.com/f37d431a72f369c7a46bc115c4836a69.1000x1000x1.jpg" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4>Pahadon Mein</h4>
+                            <p>Salman Elahi</p>
+                        </button>
+   
+   
+                        <button class="items">
+                            <img  class="song-img" src="https://i.scdn.co/image/ab67706f000000021178668a0433d73e34bb4af5" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4>Deep Sleep</h4>
+                            <p>By Spotify</p>
+                        </button>
+   
+   
+                        <button class="items">
+                            <img  class="song-img" src="https://i.ytimg.com/vi/v4peso5bOY8/maxresdefault.jpg" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4>Kya Karoon?</h4>
+                            <p>Zaeden</p>
+                        </button>
+   
+   
+                        <button class="items">
+                            <img  class="song-img" src=" https://i.scdn.co/image/ab67706f00000002d9e758880a1effe4f5d62062" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4>Night Stroms</h4>
+                            <p>By Spotify</p>
+                        </button>
+   
+   
+                    </div>
+                </div>
+   
+   
+   
+                <div class="popular-albums">
+                    <div class="show">
+                        <a href=""><h2>One Direction</h2></a>
+                        <a class="a-1"  href=""><p>Show all</p></a>
+   
+                    </div>
+                   
+                    <div style="margin-left: 8px;" class="cards">
+                        <button class="items">
+                            <img class="song-img"   src="https://cdns-images.dzcdn.net/images/cover/433ce4072595090a6b2add706416d311/1900x1900-000000-80-0-0.jpg" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4>Drag Me Down</h4>
+                            <p style="margin-top: 40px;">By One Direction</p>
+                        </button>
+   
+   
+                        <button class="items">
+                            <img  class="song-img" src="https://i.pinimg.com/originals/1e/bd/f7/1ebdf7a33aa908ca5e489c09be65f510.png" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4 style="margin-left: 4px">Story of my life</h4>
+                            <p style="margin-top: 40px;">By One Direction</p>
+                        </button>
+   
+   
+                        <button class="items">
+                            <img   class="song-img" src=" https://cdns-images.dzcdn.net/images/cover/44d6c40a5d127528c991b1923948d4bd/1900x1900-000000-80-0-0.jpg" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4 style="margin-left: 4px">Steel My Girl</h4>
+                            <p style="margin-top: 40px;">By One Direction</p>
+                           
+                        </button>
+   
+   
+                        <button class="items">
+                            <img  class="song-img" src=" https://i.scdn.co/image/ab67616d0000b2734a5584795dc73860653a9a3e" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4 style="margin-left: 4px">What Makes You Beautiful</h4>
+                            <p style="margin-top: 40px;">By One Direction</p>
+                        </button>
+   
+   
+                        <button class="items">
+                            <img  class="song-img" src=" https://upload.wikimedia.org/wikipedia/en/e/e8/One_Direction_-_Four.png" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4 style="margin-left: 4px">No Control</h4>
+                            <p style="margin-top: 40px;">By One Direction</p>
+                        </button>
+   
+   
+                        <button class="items">
+                            <img  class="song-img" src=" https://cdns-images.dzcdn.net/images/cover/5dac7cd963ce16e855d1efefe9082ae5/1900x1900-000000-80-0-0.jpg" alt="">
+                            <div class="play-btn">
+                                <span><i class="fa-solid fa-play" style="color: #000;"></i></span>
+                            </div>
+                            <h4 style="margin-left: 4px">One Way Or Another</h4>
+                            <p style="margin-top: 40px;">By One Direction</p>
+                        </button>
+   
+   
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <div class="footer">
+                        <div class="footer-links">
+                            <div class="footer-column">
+                                <div>Company
+                                </div>
+                                <ul class="col-links">
+                                  <li><a href="">About</a></li>
+                                  <li><a href="">Jobs</a></li>
+                                  <li><a href="">For the Record</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-column">
+                                <div>Communities</div>
+                                <ul class="col-links">
+                                  <li><a href="">For Artists</a></li>
+                                  <li><a href="">Developers</a></li>
+                                  <li><a href="">Advertising</a></li>
+                                  <li><a href="">investord</a></li>
+                                  <li><a href="">Vendors</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-column">
+                                <div>Useful links</div>
+                                <ul class="col-links">
+                                  <li><a href="">Support</a></li>
+                                  <li><a href="">Free Mobile App</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-column">
+                                <div>Spotify Plans</div>
+                                <ul class="col-links">
+                                  <li><a href="">Premium Individual</a></li>
+                                  <li><a href="">Premium Duo</a></li>
+                                  <li><a href="">Premium Family</a></li>
+                                  <li><a href="">Premium Student</a></li>
+                                  <li><a href="">Spotify Free</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <div>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-facebook"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+                <hr>
+            <div>
+                <p class="copyright">
+                    © 2024 Spotify 
+                </p>
+            </div>
+         </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+            </div>
+   
+    <div id="down">
+        <div class="text">
+            <h4>Preview of Spotify</h4>
+            <p>
+                Sign up to get unlimites songs and podcast with occasional ads. No credit card needed.
+            </p>
+        </div>
+        <div class="down-btn">
+            <button>Sign up free</button>
+        </div>
+    </div>
+   
+</body>
+</html>
